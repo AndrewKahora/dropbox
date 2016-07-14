@@ -114,5 +114,75 @@
 }
 
 #page-content .row {
+  display: flex
+}
 
+.header-photo {
+    padding: 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.header-photo p {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #999;
+}
+name {
+    text-align: right;
+}
+
+.name i{
+    padding-right: 10px;
+    color: #999;
+}
+
+.top-actions {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0;
+    height: 100%;
+    margin-left: -15px;
+}
+
+.top-actions li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.top-actions li:first-of-type{
+    padding-left: 15px;
+}
+
+.col-x-5 {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    border: 0px dotted;
+    position: relative;
+}
+
+
+.col-x-5 {
+    width: 100%;
+    float: left;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70% !important;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
 }
