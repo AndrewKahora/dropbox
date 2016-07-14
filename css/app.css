@@ -81,11 +81,11 @@
 .details a{
     padding: 10px 20px;
     width: 100%;
-    color: #ddd;
+    color: #e0e0e0;
 }
 #page-content {
     height: auto;
-    background: #eee;
+    background: #e2e2e2;
 }
 
 .photos img {
@@ -93,5 +93,26 @@
 }
 
 .search {
-    color: #999;
+    color: #777777;
+}.search i{
+    color: #888888;
+    padding-right: 5px;
+}
+
+.photos p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.photos p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    padding: 3px;
+}
+
+#page-content .row {
+
 }
