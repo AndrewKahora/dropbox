@@ -1,0 +1,54 @@
+#container {
+    min-height: 100%;
+    padding: 100px 00px;
+    background: #36446c;
+}
+
+.row {
+    max-width: 87rem;
+}
+
+#content {
+    background: #ecf0f1;
+    background: #4E6378;
+}
+
+#sidebar {
+    background: #4E6378;
+    min-height: 100%;
+}
+
+#sidebar {
+    height: 100%;
+}
+
+#sidebar .menu{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#sidebar .logo {
+    text-align: center;
+    padding: 10px;
+}
+
+#sidebar .logo img{
+    width: 80px;
+}
+
+#sidebar ul li a {
+    padding-left: 15px;
+    color: #ddd;
+    font-size: 15px;
+}
+
+.active a{
+    background: #4E6378 !important;
+    color: #fff !important;
+}
+
+#sidebar ul li a i{
+    width: 30px;
+    font-size: 17px;
+    color: deepskyblue
+}
