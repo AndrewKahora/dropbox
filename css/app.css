@@ -34,7 +34,9 @@
     text-align: center;
     padding: 10px;
 }
-
+.small-6 columns name{
+    text-align: right;
+}
 
 
 #sidebar ul li a {
